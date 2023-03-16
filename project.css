@@ -1,0 +1,257 @@
+.bg {
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
+}
+.all{
+  background-color: black;
+}
+
+.dropdown {
+    margin: 0px;
+}
+nav {
+    height: 60px;
+    background: black;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+nav a.logo {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+nav a.logo span{
+    color: red;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+nav ul li {
+    background: black;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    background: red;
+}
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 160px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul li a:hover {
+    background: red;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 160px;
+    background: black;
+}
+
+nav ul ul ul li a:hover {
+    background: red;
+}
+
+.main {
+  height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    min-height: 710px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(background.jpg);
+      animation: change 15s infinite ease-in-out;
+  }
+  .area {
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .area h1 {
+    font-size: 60px;
+    word-spacing: 15px;
+    line-height: 75px;
+  }
+  .area h1 span{
+    color: red;
+  }
+  
+  .area h3 {
+    margin-top: -30px;
+    font-size: 27px;
+    font-weight: normal;
+  }
+  .area h3 span{
+    color: red;
+  }
+  .area h4 {
+    color: white;
+    margin-top: 10px;
+    font-weight: normal;
+  }
+  @keyframes change{
+    0%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(background.jpg);
+    }
+    20%
+    {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(pic2.jpeg);
+    }
+    40%
+    {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(pic3.jpeg);
+    }
+    60%
+    {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(pic4.png);
+    }
+    80%
+    {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(pic5.jpg);
+    }
+    100%
+    {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(pic6.jpeg);
+    }
+  }
+  
+  .footer{
+    display: flex;
+    background-color: black;
+  }
+  .about{
+    background-color: black;
+  }
+  .about h1 {
+    font-size: 60px;
+    word-spacing: 15px;
+    text-align: center;
+    color: white;
+  }
+  .about h1 span{
+    color: red;
+  }
+  .card{
+    height: 300px;
+    margin: 30px;
+    margin-top: -5px;
+    box-shadow: 5px 5px 5px black;
+    overflow: hidden;
+  }
+  .footer .card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+  }
+  .intro{
+    height: 50px;
+    width: 275px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -565px;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    transition: 0.5s;
+  }
+  .intro h1{
+    margin: 2px;
+    font-size: 30px;
+  }
+ .intro p{
+    font-size: 20px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .intro p span{
+    font-weight: bold;
+    color: red;
+  }
+  .card:hover{
+    cursor: pointer;
+  }
+  .card:hover .intro{
+    height: 180px;
+    bottom: -565px;
+    background: rgb(27, 27, 27, 0.5);
+  }
+  .card:hover p{
+    opacity: 1;
+    visibility: visible;
+  }
+  .card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .social a{
+    text-decoration: none;
+   }
+   .social img{
+    width: 45px;
+    margin: 10px;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 12px;
+   }
+   .social a:hover{
+    cursor: pointer;
+   }

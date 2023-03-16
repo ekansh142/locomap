@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <Title>Loco Map</Title>
+        <link rel="stylesheet" href="djgh.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="dropdown">
+        <nav>
+            <a href="project.html" class="logo"><span>L</span>o<span>C</span>o<span>M</span>a<span>P</span></a>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="#">Classroom</a>
+                <ul>
+                    <li><a href="#">Ground Floor</a>
+                        <ul>
+                            <li><a href="#">G-S-1</a></li>
+                            <li><a href="#">G-S-2</a></li>
+                            <li><a href="#">G-S-3</a></li>
+                            <li><a href="#">G-S-4</a></li>
+                            <li><a href="#">G-S-5</a></li>
+                            <li><a href="#">G-S-6</a></li>
+                            <li><a href="#">G-S-7</a></li>
+                            <li><a href="#">G-S-8</a></li>
+                            <li><a href="#">NLHC-1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">First Floor</a>
+                        <ul>
+                            <li><a href="svbh.html">F-C-1</a></li>
+                            <li><a href="#">F-C-2</a></li>
+                            <li><a href="#">F-C-3</a></li>
+                            <li><a href="#">F-C-4</a></li>
+                            <li><a href="#">F-C-5</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Second Floor</a>
+                        <ul>
+                            <li><a href="#">SEW-7</a></li>
+                            <li><a href="#">SEW-8</a></li>
+                            <li><a href="#">SEW-9</a></li>
+                            <li><a href="#">SEW-10</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <li><a href="#">Campus</a>
+                    <ul>
+                        <li><a href="#">Administrative</a></li>
+                        <li><a href="#">MP Hall</a></li>
+                        <li><a href="#">Athletic Ground</a></li>
+                        <li><a href="#">GYM Khana</a></li>
+                        <li><a href="#">Library</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a>
+                    <ul>
+                        <li><a href="#">MP Hall</a></li>
+                        <li><a href="#">SVBH Hostle</a></li>
+                        <li><a href="#">DJGH Hostle</a></li>
+                        <li><a href="#">Main Building</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Senior support</a>
+                    <ul>
+                        <li><a href="senior_support.html">Second Year</a>
+                        
+                        </li>
+                        <li><a href="senior_support1.html">Third Year</a>
+                        
+                    </li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="btn">
+        <a href="svbh.html"><button class="btn1">From SVBH Hostle</button></a>
+        <a href="svbh.html"><button class="btn2">From DJGH Hostle</button></a>
+    </div>
+    <img src="campus1.jpg" alt="background"/>
+    <img src="campus2.jpg" alt="logo">
+    <img src="campus3.jpg" alt="img">
+    <img src="campus4.jpg" alt="img2">
+    <img src="campus5.jpg" alt="img2">
+    <img src="campus6.jpg" alt="img2">
+    <img src="campus7.jpg" alt="img2">
+    <img src="campus8.jpg" alt="img2">
+    <div class="social">
+        <a href="#"><img src="facebook1.png" alt="facebook"></a>
+         <a href="#"><img src="instagram.jpg" alt="instagram"></a>
+         <a href="#"><img src="twitter3.png" alt="twitter"></a>
+         <a href="#"><img src="linkedin.png" alt="linkedin"></a>
+     </div>
+     <div class="container">
+        <div class="post">
+          <div class="text">Thanks for your feedback!!</div>
+          <div class="edit">EDIT</div>
+        </div>
+        <div class="star-widget">
+          <input type="radio" name="rate" id="rate-5">
+          <label for="rate-5" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-4">
+          <label for="rate-4" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-3">
+          <label for="rate-3" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-2">
+          <label for="rate-2" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-1">
+          <label for="rate-1" class="fas fa-star"></label>
+          <form action="#">
+            <header></header>
+            <div class="textarea">
+              <textarea cols="30" placeholder="Describe your experience.."></textarea>
+            </div>
+            <div class="btn3">
+              <button type="submit">Post</button>
+            </div>
+        
+          </form>
+        </div>
+      </div>
+    </div>
+      <script>
+        const btn = document.querySelector(".btn3");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = ()=>{
+          widget.style.display = "none";
+          post.style.display = "block";
+          editBtn.onclick = ()=>{
+            widget.style.display = "block";
+            post.style.display = "none";
+          }
+          return false;
+        }
+      </script>
+   
+    </body>
+</html>

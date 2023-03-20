@@ -1,0 +1,198 @@
+.bg {
+    height: 100vh;
+    width: 100vh;
+    background-color: grey;
+}
+.all{
+  background-color: grey;
+}
+
+.dropdown {
+    margin: 0px;
+    position: relative;
+}
+nav {
+    height: 60px;
+    background: black;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+nav a.logo {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+nav a.logo span{
+    color: red;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+nav ul li {
+    background: black;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    background: red;
+}
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 160px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul li a:hover {
+    background: red;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 160px;
+    background: black;
+}
+
+nav ul ul ul li a:hover {
+    background: red;
+}
+
+.main {
+  height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    background-position: center;
+    min-height: 7510px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(index.jpg);
+  }
+ .main img{
+    
+    height: 300px;
+    width: 750px;
+    top: 100px;
+    margin-left: 350px;
+    border: 2px solid black;
+ }
+ .btn{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+ .btn a{
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    width: 50%;
+    font-size: 30px;
+    text-transform: uppercase; 
+    margin-right: 10px;
+    border-color: white;
+    border-radius: 6px;
+    color: black;
+ }
+  .btn1{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    min-height: 50px;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase; 
+    border-color: orangered;
+    border-radius: 6px;
+    margin-right: 20px; 
+    margin-left: 10px;
+  }
+ 
+.btn1:hover{
+    background-color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+}
+  .btn2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    border-color: white;
+    border-radius: 6px;
+    right: 10px;
+    margin-right: 10px;
+    
+  }
+  
+.btn2:hover{
+    cursor: pointer;
+    background-color: orangered;
+    border-color: orangered;
+}
+.main .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .social a{
+    text-decoration: none;
+   }
+   .social img{
+    width: 45px;
+    height: 40px;
+    margin: 10px;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 12px;
+    border: none;
+   }
+   .social a:hover{
+    cursor: pointer;
+   }

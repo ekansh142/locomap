@@ -99,7 +99,7 @@ nav ul ul ul li a:hover {
     overflow-x: hidden;
     justify-content: center;
     background-position: center;
-    min-height: 3290px;
+    min-height: 7200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(index.jpg);
   }

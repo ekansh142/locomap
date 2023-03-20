@@ -1,12 +1,4 @@
-.bg {
-    height: 100vh;
-    width: 100vh;
-    background-color: grey;
-}
-.all{
-  background-color: grey;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .dropdown {
     margin: 0px;
     position: relative;
@@ -99,16 +91,16 @@ nav ul ul ul li a:hover {
     overflow-x: hidden;
     justify-content: center;
     background-position: center;
-    min-height: 3290px;
+    min-height: 3750px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(index.jpg);
   }
  .main img{
     
-    height: 300px;
-    width: 750px;
+    height: 350px;
+    width: 650px;
     top: 100px;
-    margin-left: 350px;
+    margin-left: 390px;
     border: 2px solid black;
  }
  .btn{
@@ -131,7 +123,7 @@ nav ul ul ul li a:hover {
     border-radius: 6px;
     color: black;
  }
-  .btn1{
+  .btn2{
     
     display: flex;
     flex-direction: row;
@@ -144,16 +136,16 @@ nav ul ul ul li a:hover {
     text-transform: uppercase; 
     border-color: orangered;
     border-radius: 6px;
-    margin-right: 20px; 
-    margin-left: 10px;
+    margin-right: 10px;
+    
   }
- 
-.btn1:hover{
+  
+.btn2:hover{
     background-color: orangered;
     border-color: orangered;
     cursor: pointer;
 }
-  .btn2{
+  .btn1{
     
     display: flex;
     flex-direction: row;
@@ -167,11 +159,13 @@ nav ul ul ul li a:hover {
     border-color: white;
     border-radius: 6px;
     right: 10px;
-    margin-right: 10px;
+   
+    margin-right: 20px; 
+    margin-left: 10px;
     
   }
-  
-.btn2:hover{
+ 
+.btn1:hover{
     cursor: pointer;
     background-color: orangered;
     border-color: orangered;
@@ -196,3 +190,4 @@ nav ul ul ul li a:hover {
    .social a:hover{
     cursor: pointer;
    }
+  

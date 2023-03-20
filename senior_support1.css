@@ -94,7 +94,7 @@ nav ul ul ul li a:hover {
     overflow-x: hidden;
     justify-content: center;
     background-position: center;
-    min-height: 1850px;
+    min-height: 1780px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(index.jpg);
   }
@@ -121,10 +121,12 @@ nav ul ul ul li a:hover {
   }
   .card{
     height: 300px;
-    margin: 30px;
+    margin: -10px;
     margin-top: 15px;
     box-shadow: 5px 5px 5px black;
     overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 65px;
   }
   .cse .card img{
     height: 300px;
@@ -133,11 +135,11 @@ nav ul ul ul li a:hover {
   }
   .introcse{
     height: 50px;
-    width: 240px;
+    width: 305px;
     padding: 6px;
     position: absolute;
     box-sizing: border-box;
-    bottom: 130px;
+    bottom: 275px;
     background: rgb(27, 27, 27, 0.5);
     color: white;
     transition: 0.5s;
@@ -161,7 +163,7 @@ nav ul ul ul li a:hover {
   }
   .card:hover .introcse{
     height: 180px;
-    bottom: 130px;
+    bottom: 275px;
     background: rgb(27, 27, 27, 0.5);
   }
   .card:hover p{
@@ -181,11 +183,11 @@ nav ul ul ul li a:hover {
   }
   .introece{
     height: 50px;
-    width: 240px;
+    width: 305px;
     padding: 6px;
     position: absolute;
     box-sizing: border-box;
-    bottom: -300px;
+    bottom: -140px;
     background: rgb(27, 27, 27, 0.5);
     color: white;
     transition: 0.5s;
@@ -206,7 +208,7 @@ nav ul ul ul li a:hover {
   }
   .card:hover .introece{
     height: 180px;
-    bottom: -300px;
+    bottom: -140px;
     background: rgb(27, 27, 27, 0.5);
   }
   .eee{
@@ -219,11 +221,11 @@ nav ul ul ul li a:hover {
   }
   .introeee{
     height: 50px;
-    width: 240px;
+    width: 305px;
     padding: 6px;
     position: absolute;
     box-sizing: border-box;
-    bottom: -725px;
+    bottom: -560px;
     background: rgb(27, 27, 27, 0.5);
     color: white;
     transition: 0.5s;
@@ -244,7 +246,7 @@ nav ul ul ul li a:hover {
   }
   .card:hover .introeee{
     height: 180px;
-    bottom: -725px;
+    bottom: -560px;
     background: rgb(27, 27, 27, 0.5);
   }
   .mechanical{
@@ -257,11 +259,11 @@ nav ul ul ul li a:hover {
   }
   .intromechanical{
     height: 50px;
-    width: 240px;
+    width: 305px;
     padding: 6px;
     position: absolute;
     box-sizing: border-box;
-    bottom: -1155px;
+    bottom: -980px;
     background: rgb(27, 27, 27, 0.5);
     color: white;
     transition: 0.5s;
@@ -282,7 +284,7 @@ nav ul ul ul li a:hover {
   }
   .card:hover .intromechanical{
     height: 180px;
-    bottom: -1155px;
+    bottom: -980px;
     background: rgb(27, 27, 27, 0.5);
   }
  .social{
